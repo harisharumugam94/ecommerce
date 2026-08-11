@@ -4,7 +4,7 @@ import axios from 'axios';
 export const API_BASE = 'https://ecommerce-ioot.onrender.com/api';
 
 // URL of the separate Admin app - change this once the admin app is deployed too
-export const ADMIN_APP_URL = 'http://localhost:5174';
+export const ADMIN_APP_URL = 'https://ecommerce-admin-app.vercel.app';
 
 const api = axios.create({ baseURL: API_BASE });
 

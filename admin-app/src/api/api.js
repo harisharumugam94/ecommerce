@@ -4,7 +4,7 @@ import axios from 'axios';
 export const API_BASE = 'https://ecommerce-ioot.onrender.com/api';
 
 // URL of the separate customer-facing User app
-export const USER_APP_URL = 'http://localhost:5173';
+export const USER_APP_URL = 'https://ecommerce-user-app.vercel.app';
 
 const api = axios.create({ baseURL: API_BASE });
 
