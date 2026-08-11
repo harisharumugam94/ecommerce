@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Change this to your live Render URL once the backend is deployed
-export const API_BASE = 'http://localhost:5001/api';
+export const API_BASE = 'https://ecommerce-ioot.onrender.com/api';
 
 // URL of the separate Admin app - change this once the admin app is deployed too
 export const ADMIN_APP_URL = 'http://localhost:5174';
