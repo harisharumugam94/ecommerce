@@ -12,7 +12,7 @@ connectDB();
 
 app.use(cors({
   origin: [
-    'https://ecommerce-user-app-xxxx.vercel.app',
+    'https://ecommerce-user-app-eight.vercel.app',
     'https://ecommerce-admin-app-eight.vercel.app'
   ],
   credentials: true
